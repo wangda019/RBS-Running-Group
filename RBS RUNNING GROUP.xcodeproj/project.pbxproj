@@ -10,12 +10,24 @@
 		115B4B501AF58FCA00AFADDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B4F1AF58FCA00AFADDD /* main.m */; };
 		115B4B531AF58FCA00AFADDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B521AF58FCA00AFADDD /* AppDelegate.m */; };
 		115B4B561AF58FCA00AFADDD /* RBS_RUNNING_GROUP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B541AF58FCA00AFADDD /* RBS_RUNNING_GROUP.xcdatamodeld */; };
-		115B4B591AF58FCA00AFADDD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B581AF58FCA00AFADDD /* MasterViewController.m */; };
 		115B4B5C1AF58FCA00AFADDD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B5B1AF58FCA00AFADDD /* DetailViewController.m */; };
 		115B4B5F1AF58FCA00AFADDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115B4B5D1AF58FCA00AFADDD /* Main.storyboard */; };
-		115B4B611AF58FCA00AFADDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115B4B601AF58FCA00AFADDD /* Images.xcassets */; };
 		115B4B641AF58FCA00AFADDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 115B4B621AF58FCA00AFADDD /* LaunchScreen.xib */; };
 		115B4B701AF58FCA00AFADDD /* RBS_RUNNING_GROUPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B6F1AF58FCA00AFADDD /* RBS_RUNNING_GROUPTests.m */; };
+		115B4B7B1AF597F400AFADDD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B7A1AF597F400AFADDD /* Location.m */; };
+		115B4B7E1AF597F400AFADDD /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B7D1AF597F400AFADDD /* Run.m */; };
+		115B4B801AF598A500AFADDD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115B4B7F1AF598A500AFADDD /* MapKit.framework */; };
+		115B4B821AF598B500AFADDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115B4B811AF598B500AFADDD /* CoreGraphics.framework */; };
+		115B4B841AF598C200AFADDD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115B4B831AF598C200AFADDD /* CoreData.framework */; };
+		115B4B861AF598D700AFADDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115B4B851AF598D700AFADDD /* UIKit.framework */; };
+		115B4B881AF598E600AFADDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115B4B871AF598E600AFADDD /* Foundation.framework */; };
+		115B4B8B1AF5CA5900AFADDD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B8A1AF5CA5900AFADDD /* HomeViewController.m */; };
+		115B4B8E1AF5CCEF00AFADDD /* NewRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B8D1AF5CCEF00AFADDD /* NewRunViewController.m */; };
+		115B4B911AF6BFEA00AFADDD /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B901AF6BFEA00AFADDD /* MathController.m */; };
+		115B4B941AF7E65600AFADDD /* MulticolorPolylineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4B931AF7E65600AFADDD /* MulticolorPolylineSegment.m */; };
+		115B4BA91AF84D8C00AFADDD /* AccountDetailcontrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4BA81AF84D8C00AFADDD /* AccountDetailcontrollerViewController.m */; };
+		115B4BAD1AF868E700AFADDD /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 115B4BAC1AF868E700AFADDD /* 1.jpg */; };
+		1192745D1BA9C70D00D6BCEF /* profit-rbs-419353.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1192745C1BA9C70D00D6BCEF /* profit-rbs-419353.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +47,34 @@
 		115B4B511AF58FCA00AFADDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		115B4B521AF58FCA00AFADDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		115B4B551AF58FCA00AFADDD /* RBS_RUNNING_GROUP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RBS_RUNNING_GROUP.xcdatamodel; sourceTree = "<group>"; };
-		115B4B571AF58FCA00AFADDD /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		115B4B581AF58FCA00AFADDD /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		115B4B5A1AF58FCA00AFADDD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		115B4B5B1AF58FCA00AFADDD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		115B4B5E1AF58FCA00AFADDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		115B4B601AF58FCA00AFADDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		115B4B631AF58FCA00AFADDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		115B4B691AF58FCA00AFADDD /* RBS RUNNING GROUPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RBS RUNNING GROUPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		115B4B6E1AF58FCA00AFADDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		115B4B6F1AF58FCA00AFADDD /* RBS_RUNNING_GROUPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBS_RUNNING_GROUPTests.m; sourceTree = "<group>"; };
+		115B4B791AF597F400AFADDD /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		115B4B7A1AF597F400AFADDD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		115B4B7C1AF597F400AFADDD /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		115B4B7D1AF597F400AFADDD /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
+		115B4B7F1AF598A500AFADDD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		115B4B811AF598B500AFADDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		115B4B831AF598C200AFADDD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		115B4B851AF598D700AFADDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		115B4B871AF598E600AFADDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		115B4B891AF5CA5900AFADDD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		115B4B8A1AF5CA5900AFADDD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		115B4B8C1AF5CCEF00AFADDD /* NewRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRunViewController.h; sourceTree = "<group>"; };
+		115B4B8D1AF5CCEF00AFADDD /* NewRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRunViewController.m; sourceTree = "<group>"; };
+		115B4B8F1AF6BFEA00AFADDD /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
+		115B4B901AF6BFEA00AFADDD /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
+		115B4B921AF7E65600AFADDD /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MulticolorPolylineSegment.h; path = ../MulticolorPolylineSegment.h; sourceTree = "<group>"; };
+		115B4B931AF7E65600AFADDD /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MulticolorPolylineSegment.m; path = ../MulticolorPolylineSegment.m; sourceTree = "<group>"; };
+		115B4BA71AF84D8C00AFADDD /* AccountDetailcontrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDetailcontrollerViewController.h; sourceTree = "<group>"; };
+		115B4BA81AF84D8C00AFADDD /* AccountDetailcontrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDetailcontrollerViewController.m; sourceTree = "<group>"; };
+		115B4BAC1AF868E700AFADDD /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../1.jpg; sourceTree = "<group>"; };
+		1192745C1BA9C70D00D6BCEF /* profit-rbs-419353.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "profit-rbs-419353.jpg"; path = "../../../../Downloads/profit-rbs-419353.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +82,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115B4B881AF598E600AFADDD /* Foundation.framework in Frameworks */,
+				115B4B861AF598D700AFADDD /* UIKit.framework in Frameworks */,
+				115B4B841AF598C200AFADDD /* CoreData.framework in Frameworks */,
+				115B4B821AF598B500AFADDD /* CoreGraphics.framework in Frameworks */,
+				115B4B801AF598A500AFADDD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +103,11 @@
 		115B4B411AF58FCA00AFADDD = {
 			isa = PBXGroup;
 			children = (
+				115B4B871AF598E600AFADDD /* Foundation.framework */,
+				115B4B851AF598D700AFADDD /* UIKit.framework */,
+				115B4B831AF598C200AFADDD /* CoreData.framework */,
+				115B4B811AF598B500AFADDD /* CoreGraphics.framework */,
+				115B4B7F1AF598A500AFADDD /* MapKit.framework */,
 				115B4B4C1AF58FCA00AFADDD /* RBS RUNNING GROUP */,
 				115B4B6C1AF58FCA00AFADDD /* RBS RUNNING GROUPTests */,
 				115B4B4B1AF58FCA00AFADDD /* Products */,
@@ -86,16 +126,29 @@
 		115B4B4C1AF58FCA00AFADDD /* RBS RUNNING GROUP */ = {
 			isa = PBXGroup;
 			children = (
+				115B4B891AF5CA5900AFADDD /* HomeViewController.h */,
+				115B4B8A1AF5CA5900AFADDD /* HomeViewController.m */,
 				115B4B511AF58FCA00AFADDD /* AppDelegate.h */,
 				115B4B521AF58FCA00AFADDD /* AppDelegate.m */,
-				115B4B571AF58FCA00AFADDD /* MasterViewController.h */,
-				115B4B581AF58FCA00AFADDD /* MasterViewController.m */,
+				115B4B8C1AF5CCEF00AFADDD /* NewRunViewController.h */,
+				115B4B8D1AF5CCEF00AFADDD /* NewRunViewController.m */,
+				115B4B8F1AF6BFEA00AFADDD /* MathController.h */,
+				115B4B901AF6BFEA00AFADDD /* MathController.m */,
 				115B4B5A1AF58FCA00AFADDD /* DetailViewController.h */,
 				115B4B5B1AF58FCA00AFADDD /* DetailViewController.m */,
+				115B4BA71AF84D8C00AFADDD /* AccountDetailcontrollerViewController.h */,
+				115B4BA81AF84D8C00AFADDD /* AccountDetailcontrollerViewController.m */,
+				115B4B921AF7E65600AFADDD /* MulticolorPolylineSegment.h */,
+				115B4B931AF7E65600AFADDD /* MulticolorPolylineSegment.m */,
 				115B4B5D1AF58FCA00AFADDD /* Main.storyboard */,
-				115B4B601AF58FCA00AFADDD /* Images.xcassets */,
 				115B4B621AF58FCA00AFADDD /* LaunchScreen.xib */,
 				115B4B541AF58FCA00AFADDD /* RBS_RUNNING_GROUP.xcdatamodeld */,
+				115B4B7C1AF597F400AFADDD /* Run.h */,
+				115B4B7D1AF597F400AFADDD /* Run.m */,
+				115B4B791AF597F400AFADDD /* Location.h */,
+				1192745C1BA9C70D00D6BCEF /* profit-rbs-419353.jpg */,
+				115B4BAC1AF868E700AFADDD /* 1.jpg */,
+				115B4B7A1AF597F400AFADDD /* Location.m */,
 				115B4B4D1AF58FCA00AFADDD /* Supporting Files */,
 			);
 			path = "RBS RUNNING GROUP";
@@ -176,6 +229,11 @@
 				TargetAttributes = {
 					115B4B491AF58FCA00AFADDD = {
 						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					115B4B681AF58FCA00AFADDD = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -207,9 +265,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115B4BAD1AF868E700AFADDD /* 1.jpg in Resources */,
 				115B4B5F1AF58FCA00AFADDD /* Main.storyboard in Resources */,
 				115B4B641AF58FCA00AFADDD /* LaunchScreen.xib in Resources */,
-				115B4B611AF58FCA00AFADDD /* Images.xcassets in Resources */,
+				1192745D1BA9C70D00D6BCEF /* profit-rbs-419353.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +287,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				115B4B5C1AF58FCA00AFADDD /* DetailViewController.m in Sources */,
-				115B4B591AF58FCA00AFADDD /* MasterViewController.m in Sources */,
+				115B4B7E1AF597F400AFADDD /* Run.m in Sources */,
+				115B4B911AF6BFEA00AFADDD /* MathController.m in Sources */,
+				115B4BA91AF84D8C00AFADDD /* AccountDetailcontrollerViewController.m in Sources */,
+				115B4B941AF7E65600AFADDD /* MulticolorPolylineSegment.m in Sources */,
 				115B4B561AF58FCA00AFADDD /* RBS_RUNNING_GROUP.xcdatamodeld in Sources */,
 				115B4B531AF58FCA00AFADDD /* AppDelegate.m in Sources */,
+				115B4B7B1AF597F400AFADDD /* Location.m in Sources */,
+				115B4B8B1AF5CA5900AFADDD /* HomeViewController.m in Sources */,
 				115B4B501AF58FCA00AFADDD /* main.m in Sources */,
+				115B4B8E1AF5CCEF00AFADDD /* NewRunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "RBS RUNNING GROUP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "RBS RUNNING GROUP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +493,7 @@
 				115B4B751AF58FCA00AFADDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		115B4B761AF58FCA00AFADDD /* Build configuration list for PBXNativeTarget "RBS RUNNING GROUPTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +502,7 @@
 				115B4B781AF58FCA00AFADDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
